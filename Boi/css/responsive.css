@@ -1,0 +1,53 @@
+/* Header responsive  */
+@media only screen and (max-width: 768px){
+    #menu {
+        display: none;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    #bottomMenu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(255, 104, 78, 0.856);
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 1000;
+    }
+
+        
+    
+
+}
+
+
+
+
+/* Contact responsive  */
+
+@media only screen and (max-width: 768px){
+    h1 {
+        font-size: 1.5rem;
+
+    } 
+}
+@media only screen and (min-width: 768px){
+    .contact-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .map-container {
+        width: 47.5%;
+    }
+    .contact-form {
+        width: 47.5%;
+    }
+    
+}
+    
